@@ -1,0 +1,235 @@
+body {
+  font-family: "bungee";
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #d0fdcf;*/
+  background-color: #85FFC7;
+  text-decoration: none;
+}
+
+canvas {
+  vertical-align: top;
+  margin-top: 6.5em;
+  margin-bottom: -4em;
+}
+
+p {
+  font-family: "Open Sans";
+  line-height: 1.25;
+  text-align:justify;
+}
+
+.nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  list-style-type: none;
+  background-color: white;
+  overflow: hidden;
+  margin: 0em;
+  padding: 0em;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 1.5em;
+}
+
+.nav a:first-child {
+  margin-left: 0%;
+}
+
+/* BODY OF PAGES (EXCLUDING HOME PAGE AND GAME PAGE) */
+.maintext {
+  margin-top: 5em;
+  margin-left: 3.125em;
+  margin-right: 3.125em;
+  line-height: 1;
+}
+
+/* FOR CONTACT PAGE MISSION SECTION*/
+.sections {
+  display: flex;
+  background-color: auto;
+}
+
+.section1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  height: auto;
+  width: 33%;
+  text-align: left;
+}
+
+.section2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  height: auto;
+  width: 67%;
+}
+
+/* FOR CONTACT PAGE MEET THE TEAM SECTION */
+.profiles {
+  display: flex;
+  flex-flow: row;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.profile {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  border-radius: 2.5%;
+  margin-right: 0.75em;
+  margin-left: 0.75em;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+  width: 25%;
+  height: auto;
+  text-align: left;
+}
+
+.profpic {
+  align-self:center;
+  border-radius: 50%;
+}
+
+.align-left {
+  text-align: left;
+}
+
+/* FOR LEARN PAGE ALL THE PRODUCTS */
+.productsection {
+  display: flex;
+  flex-flow: row;
+  margin-top: -1.25em;
+}
+
+.productportion {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  border-radius: 2.5%;
+  /*margin: 0.75em 0.375em;*/
+}
+
+.productheader {
+  font-family: "bungee";
+  margin-left:0.5em;
+}
+
+.product {
+  display: flex;
+  flex-flow: row;
+  /*height: 15em;*/
+  margin: 0.5em 0.75em;
+  /*padding: 0.25em;*/
+  padding-right: 0.25em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  background-color: white;
+  border-radius: 2.5%;
+}
+
+.productimage {
+  width: 33%;
+  margin-left: -0.5em;
+}
+
+.productinfo {
+  display: flex;
+  flex-flow: column;
+  width: 66%;
+  /*align-self: center;*/
+}
+
+.productname {
+  align-self: auto;
+}
+
+.productblurb {
+  font-family: "open sans";
+  text-align: justify;
+}
+
+/* ALL HEADERS IN WEBSITE*/
+.title {
+  font-family: "bungee shade";
+}
+
+.link {
+  text-decoration: none;
+  background-color: auto;
+  color: black;
+}
+
+#otherspace {
+  background-color: #85FFC7;
+  position: fixed;
+  width: 100%;
+  padding: 2.2em;
+  top: 0;
+  left: 0;
+}
+
+#logo {
+  padding: 0.3em 0.75em;
+  font-size: 1.7em;
+  font-family: "bungee shade";
+  margin: 0em 0em 0em 0em;
+}
+
+#current {
+  /*background-color: #d0fdcf;*/
+  /*background-color: #5AB96C;*/
+  background-color: #85FFC7;
+}
+
+#canvas {
+  order: 1;
+}
+
+#main {
+  order: 2;
+  margin-top: -8.25em;
+  margin-left: 24.5em;
+  margin-right: 24.5em;
+  margin-bottom: -0.5em;
+  line-height: 1;
+  /*display: flex;
+  flex-flow: row;*/
+}
+
+#credits {
+  margin-right: 1.15em;
+  margin-left: 1.15em;
+}
+
+#homepage-title {
+  font-family: "bungee shade";
+  line-height: 1;
+  font-size: 5em;
+  text-align: center;
+}
+
+#homepage-play {
+  margin-top: -1em;
+  font-family: "bungee";
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  background-color: inherit;
+  color: white;
+}
